@@ -1,0 +1,13 @@
+<view class="container winner-list">
+  <block wx:for="{{winner}}" wx:key="{{img}}">
+
+    <view class="image-section">
+      <image style="width: 80px; height: 80px; background-color:#eeeeee;"
+      src="{{item.img}}" mode="aspectFit"></image>
+    </view>
+    <view class="legend-items">
+        <view><text class="legend-item">{{item.time}}</text></view>
+        <view><text class="legend-item1">{{item.state}}</text></view>
+      </view>
+  </block>
+</view>

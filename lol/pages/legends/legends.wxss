@@ -1,0 +1,14 @@
+.winner-list {
+display: flex;
+flex-direction: colum;
+
+}
+
+.image-section
+{
+margin-right: 150px;
+}
+.legend-items {
+margin-left: 150px;
+font-size: -80px;
+}
